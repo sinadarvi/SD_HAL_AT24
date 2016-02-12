@@ -36,8 +36,10 @@ Function just get the DevAddress of the Slave (not master) and for the next step
 
 here we are . we have 2 function for read and write and we can use it and expand our lib and make it better.
 
- don't forget to ***[visit our site](http://www.R2t.ir)*** .
+don't forget to ***[visit our site](http://www.R2t.ir)*** .
+
 thanks.
+
 Sina Darvishi
 
 
