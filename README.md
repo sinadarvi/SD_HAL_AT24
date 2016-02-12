@@ -3,9 +3,6 @@ AT24_HAL_I2C
 
 Hi guys! If you are familiar with **HAL** Libraries , you Know that work with **I2C_HAL** Library is hard to handle.so for start, any Hardware developer recommend You to work with **EEPROMs**[^eeprom] , so here we gone use **I2C_HAL** library and write somethings on EEPROMs (for example **AT24** ) and then read that from.  so here we are.first i wanna show you 2 function in my library that you can see below and then you can easily understand others.
 
-  [^eeprom]: [EEPROM](https://en.wikipedia.org/wiki/EEPROM)
-
-----------
 
 
 at24_HAL_WriteBytes
@@ -23,8 +20,6 @@ this program have this feature that don't force you to use absolute 16 bytes , y
 > - ***TxBufferSize:*** Amount of data you wanna Write.
 > - we consider ***Timeout*** as 1000.
 
-
-----------
 at24_HAL_ReadBytes
 -------------
 
@@ -39,13 +34,14 @@ Function just get the DevAddress of the Slave (not master) and for the next step
 > - we consider ***Timeout*** as 1000.
 
 
- [^datasheet]: [AT24C08 DATASHEET](https://www.google.com/search?q=at24c08+datasheet&oq=at24c08+da&aqs=chrome.1.69i57j0l5.11432j0j9&sourceid=chrome&es_sm=93&ie=UTF-8)
-
-
-----------
 here we are . we have 2 function for read and write and we can use it and expand our lib and make it better.
 
  don't forget to ***[visit our site](http://www.R2t.ir)*** .
 thanks.
 Sina Darvishi
+
+
+ [^eeprom]: [EEPROM](https://en.wikipedia.org/wiki/EEPROM)
+ [^datasheet]: [AT24C08 DATASHEET](https://www.google.com/search?q=at24c08+datasheet&oq=at24c08+da&aqs=chrome.1.69i57j0l5.11432j0j9&sourceid=chrome&es_sm=93&ie=UTF-8)
+
 
